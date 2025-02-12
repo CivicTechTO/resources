@@ -1,7 +1,8 @@
 ---
 tags:
-  - type/resource/volunteerism
+  - type/resource
+  - topic/volunteerism
 title: Volunteer Canada
-description: 
+description:
 url: https://volunteer.ca/volunteer-centre-directory/
 ---
