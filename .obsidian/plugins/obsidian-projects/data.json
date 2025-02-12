@@ -1,0 +1,101 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "_templates/entry.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "entities",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "tags": {
+                "width": 549
+              },
+              "name": {
+                "width": 438
+              }
+            },
+            "orderFields": [
+              "name",
+              "title",
+              "description",
+              "tags",
+              "url"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-keyword",
+                  "enabled": true,
+                  "value": "type/data"
+                }
+              },
+              {
+                "color": "#ff80bd",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-keyword",
+                  "enabled": true,
+                  "value": "type/community"
+                }
+              },
+              {
+                "color": "#acff80",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-keyword",
+                  "enabled": true,
+                  "value": "type/resource"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "36c6bb26-08cc-469f-9d7a-e135fe67448c",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "7c0af812-c8be-4960-a71d-922638bfc814",
+      "name": "entities"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "locale": {
+      "firstDayOfWeek": "default"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}
